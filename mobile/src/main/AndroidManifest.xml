@@ -21,7 +21,7 @@
             android:name="com.google.android.gms.car.application"
             android:resource="@xml/automotive_app_desc" />
 
-        <service android:name=".MyMessagingService"></service>
+        <service android:name=".MyMessagingService" />
 
         <receiver android:name=".MessageReadReceiver">
             <intent-filter>
@@ -33,6 +33,13 @@
                 <action android:name="uk.ac.city.remolab.ACTION_MESSAGE_REPLY" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".Booking" />
+        <activity android:name=".SelectLab" />
+        <activity android:name=".EqCat" />
+        <activity android:name=".Eq" />
+        <activity android:name=".BookEq" />
+        <activity android:name=".Instructions"></activity>
     </application>
 
 </manifest>
