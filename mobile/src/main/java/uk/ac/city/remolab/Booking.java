@@ -13,8 +13,10 @@ public class Booking extends AppCompatActivity {
         setContentView(R.layout.activity_booking);
     }
 
-    public void enter(View v) {
+    public void next(View v) {
         Intent goToSelectLab = new Intent();
-
+        goToSelectLab.setClass(this, SelectLab.class);
+        startActivity(goToSelectLab);
+        //finish();
     }
 }
