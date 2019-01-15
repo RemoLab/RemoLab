@@ -13,7 +13,7 @@ public class Instructions extends AppCompatActivity {
         setContentView(R.layout.activity_instructions);
     }
 
-    public void next(View v) {
+    public void instruct(View v) {
         /*Intent goToSelectLab = new Intent();
         goToSelectLab.setClass(this, SelectLab.class);
         startActivity(goToSelectLab);
